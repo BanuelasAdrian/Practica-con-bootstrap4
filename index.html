@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegationMenu" aria-expanded="false" aria-label="Toggle menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navegationMenu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Start</a>
+                        </li>
+
+                        <!-- Submenu -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+                                Products
+                            </a>
+                            
+                            <div class="dropdown-menu" aria-labelledby="#navbarDropdown">
+                                <a href="#" class="dropdown-item">Computer</a>
+                                <a href="#" class="dropdown-item">Smart Phones</a>
+                                <a href="#" class="dropdown-item">Tv's</a>
+                                <a href="#" class="dropdown-item">Mouse</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <form action="" class="form-inline my-2 my-lg-0">
+                        <input type="text" class="form-control mr-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Slider -->
+        <div class="row">
+            <div class="col">
+                <div class="carousel slide" id="slideshow" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-target="slideshow" class="active" data-slide-to="0"></li>
+                        <li data-target="slideshow" data-slide-to="1"></li>
+                        <li data-target="slideshow" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/s1.jpg" class="d-block w-100" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/s2.jpg" class="d-block w-100" alt="">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/s3.jpg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Controlls -->
+                    <a href="#slideshow" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a href="#slideshow" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Title Gallery -->
+        <div class="row">
+            <div class="col-12">
+                <div class="py-4 border-bottom">
+                    <h1 class="text-center">Gallery</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Cards -->
+        <div class="row py-4">
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/1.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Iphone 12</h3>
+                        <p class="card-text">Intuitive, fast and secure. Your new iPhone 12 is one step ahead of technology.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/2.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Mac</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis veritatis, minus maxime</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Camera</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni animi eaque nemo.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Smart Watch</h3>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">KeyBoard</h3>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quidem </p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Ipad Pro</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, saepe praesentium? At.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/7.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Mack Bock Air</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores commodi</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="images/8.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">Nintendo 3DS</h3>
+                        <p class="card-text">Intuitive, fast and secure. Your new iPhone 12 is one step ahead of technology.</p>
+                        <a href="#" class="btn btn-sm btn-primary">Buy</a>
+                        <a href="#" class="btn btn-sm btn-secondary">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="row border-top py-5">
+            <div class="col">
+                <h3 class="lead">Adrian Bañuelas</h3>
+                <a href="#" class="btn btn-link">About of</a>
+                <a href="#" class="btn btn-link">Contact</a>
+            </div>
+
+            <div class="col text-right">
+                <a href="#" class="btn btn-link">Go up on page</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
